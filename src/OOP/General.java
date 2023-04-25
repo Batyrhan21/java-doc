@@ -1,11 +1,13 @@
-public class OPP {
+package OOP;
+
+public class General {
     int x = 5;
 
     public static void main(String[] args) {
-        OPP myObj = new OPP();
+        General myObj = new General();
         System.out.println(myObj.x);
 
-        OPP myCar = new OPP();   // Create a myCar object
+        General myCar = new General();   // Create a myCar object
         myCar.fullThrottle();      // Call the fullThrottle() method
         myCar.speed(200);          // Call the speed() method
     }

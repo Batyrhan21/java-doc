@@ -1,3 +1,5 @@
+package OOP;
+
 public class Encapsulation {
     private String name; // private = restricted access
 
